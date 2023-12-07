@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "action": {},
+  "icons": {
+    "16": "src/assets/icon16.png",
+    "48": "src/assets/icon48.png",
+    "128": "src/assets/icon128.png"
+  },
+  "name": "Onlyfans Downloader Chrome",
+  "short_name": "Onlyfans",
+  "description": "Bulk download images and videos from my OnlyFans active subscriptions.",
+  "version": "1.4.6",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlnz7cD79DJSCLoFzkfmHj/gYItqEEj+UiaygHHztXUgNjxWp2qaW4G+QtKzPkbv/f8DM1v4YWt7v0JJJ3WmaP0YlAXsIHmh3fHTlOtCri2KietG8lzQ/Ih/OPEB4BANyAqrkZU00HhIGPBEed979i65T7vtDGW9ViducqCKmXiCowBHE9+sLRErJJXbZTIs1s3ic2D9ioRPCNGAXi1QdWLjcufli30eb5jd5sR6AdrKShpHkBx4jyfq+5uSXJYz8WGsY4zVB+tX0tyt7seoUUtNBJzjCsdASGaii14K/Mf50xMx20hU1kwP2s2QUK9q4QsReVqjlmInAajPacFGmTwIDAQAB",
+  "oauth2": {
+    "client_id": "180346679292-785lr551chvrhjrs1lgj6te39b23kdpd.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
+  "host_permissions": [
+    "*://*.onlyfans.com/*"
+  ],
+  "permissions": [
+    "cookies",
+    "storage",
+    "identity",
+    "scripting",
+    "activeTab"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "*://*.onlyfans.com/*"
+      ],
+      "resources": [
+        "src/assets/icon48.png"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
