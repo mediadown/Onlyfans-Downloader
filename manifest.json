@@ -5,11 +5,6 @@
     "type": "module"
   },
   "action": {},
-  "icons": {
-    "16": "src/assets/icon16.png",
-    "48": "src/assets/icon48.png",
-    "128": "src/assets/icon128.png"
-  },
   "name": "Onlyfans Downloader Chrome",
   "short_name": "Onlyfans",
   "description": "Bulk download images and videos from my OnlyFans active subscriptions.",
@@ -29,15 +24,21 @@
     "storage",
     "identity",
     "scripting",
-    "activeTab"
+    "activeTab",
+    "downloads"
   ],
+  "icons": {
+    "16": "src/assets/ofol/icon16.png",
+    "48": "src/assets/ofol/icon48.png",
+    "128": "src/assets/ofol/icon128.png"
+  },
   "web_accessible_resources": [
     {
       "matches": [
         "*://*.onlyfans.com/*"
       ],
       "resources": [
-        "src/assets/icon48.png"
+        "src/assets/ofol/icon48.png"
       ],
       "use_dynamic_url": false
     }

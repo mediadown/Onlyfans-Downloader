@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Fansly™ Downloader",
+    "short_name": "Fansly",
+    "version": "1.4.6",
+    "betaVersion": "1.4.9",
+    "messages": [
+      "Fixed: The bug with filtering resources.",
+      "Fixed: The bug of exporting hls video files over 2g will be stuck at 100% of progress."
+    ],
+    "download_url": "https://r2.hlsdownloader.com/crx/fanslyDownloader_v1.5.0.zip",
+    "homepage_url": "https://fanslydownloader.com/how-to-manually-install-fansly-downloader/"
+  },
+  {
+    "id": "dlghmajeeeeieidpkpmbbgclbbaphamd",
+    "name": "Onlyfans Helper",
+    "short_name": "Onlyfans",
+    "version": "1.0.2",
+    "betaVersion": "1.0.5",
+    "messages": ["Fix sub list show.Best Really work donwloader in the market.You finally find it."],
+    "download_url": "https://hlsdownloader.com/wp-content/uploads/2023/09/OFv1_v1.4.6.zip",
+    "homepage_url": "https://hlsdownloader.com/how-to-install-onlyfans-downloader-from-a-zip-file/",
+    "dynamic_rules": "https://raw.githubusercontent.com/deviint/onlyfans-dynamic-rules/main/dynamicRules.json"
+  },
+  {
+    "id": "dakcieofjnocpjhoeiebiiakjehmplcj",
+    "name": "Onlyfans Downloader Chrome",
+    "short_name": "OFDownloader",
+    "version": "1.0.2",
+    "betaVersion": "1.0.5",
+    "messages": ["Fix sub list show.Best Really work donwloader in the market.You finally find it."],
+    "download_url": "https://hlsdownloader.com/wp-content/uploads/2023/09/OFv1_v1.4.6.zip",
+    "homepage_url": "https://hlsdownloader.com/how-to-install-onlyfans-downloader-from-a-zip-file/",
+    "dynamic_rules": "https://raw.githubusercontent.com/deviint/onlyfans-dynamic-rules/main/dynamicRules.json"
+  },
+  {
+    "id": "pfbbccgcjmanijafbmhkenedlphmjbpp",
+    "name": "Onlyfans Downloader Chrome",
+    "short_name": "Onlyfans",
+    "version": "1.4.6",
+    "betaVersion": "2.0.1",
+    "messages": ["Fix sub list show.Best Really work donwloader in the market.You finally find it."],
+    "download_url": "https://hlsdownloader.com/wp-content/uploads/2023/09/OFv1_v1.4.6.zip",
+    "homepage_url": "https://hlsdownloader.com/how-to-install-onlyfans-downloader-from-a-zip-file/",
+    "dynamic_rules": "https://raw.githubusercontent.com/deviint/onlyfans-dynamic-rules/main/dynamicRules.json"
+  }
+]
