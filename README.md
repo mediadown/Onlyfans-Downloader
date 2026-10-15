@@ -3,7 +3,7 @@
     <h2>👋 Stable, Easy-to-use & Fast</h2>
 </div>
 
-![Onlyfans Downloader UI Banner](https://hlsdownloader.com/_next/image?url=%2Fscreenshot%2F1280-1024x640.png&w=1920&q=75)
+![Onlyfans Downloader UI Banner](https://hlsdownloader.com/screenshot/1280-1024x640.png)
 
 Onlyfans Downloader is the latest innovative tool designed for efficient and easy downloading of content from Onlyfans.
 
